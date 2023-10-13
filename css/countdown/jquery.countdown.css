@@ -1,0 +1,67 @@
+/* jQuery Countdown styles 2.0.0. */
+.is-countdown {
+  /*border: 1px solid #ccc;
+	background-color: #eee;*/
+  border: none;
+  background-color: none;
+}
+.countdown-rtl {
+  direction: rtl;
+}
+.countdown-holding span {
+  color: #1d1d1d;
+}
+.countdown-row {
+  clear: both;
+  width: 100%;
+  text-align: center;
+}
+.countdown-show1 .countdown-section {
+  width: 100%;
+}
+.countdown-show2 .countdown-section {
+  width: 50%;
+}
+.countdown-show3 .countdown-section {
+  width: 33.3%;
+}
+.countdown-show4 .countdown-section {
+  width: 25%;
+}
+.countdown-show5 .countdown-section {
+  width: 20%;
+}
+.countdown-show6 .countdown-section {
+  width: 16.7%;
+}
+.countdown-show7 .countdown-section {
+  width: 14.2%;
+}
+.countdown-section {
+  display: block;
+  float: left;
+  text-align: center;
+}
+.countdown-amount {
+  display: block;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 20px;
+  margin: 0 auto;
+  background-color: #fff458;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  color: rgb(1, 70, 70);
+}
+.countdown-period {
+  display: block;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding-top: 7px;
+}
+.countdown-descr {
+  display: block;
+  width: 100%;
+}

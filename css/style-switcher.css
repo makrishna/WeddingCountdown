@@ -1,0 +1,37 @@
+#style_switcher {
+  background-color: #fff;
+  position: fixed;
+  top: 30%;
+  padding: 5px;
+  z-index: 1997;
+  box-shadow: 2px 2px 3px #888888;
+  right: -82px;
+}
+
+#theme_options {
+  color: #444444;
+}
+
+.color_pallete {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+}
+
+#reset > span {
+  background-color: #ffe222;
+}
+
+#pink > span {
+  background-color: #c74264;
+}
+
+#purple > span {
+  background-color: #953c65;
+}
+
+#theme_options > span {
+  font-size: 24px;
+  margin: 0 5px;
+}

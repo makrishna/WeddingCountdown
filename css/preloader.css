@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/*============================== 
+	- Template Name: NIKH - Responsive HTML Wedding Template
+	- Author: DoubleEight
+	- Version: 1.0
+	- Website: www.dethemes.com
+================================= */
+
+
+#preloader-overlay{
+	background-color:#bb5844; 
+	position:fixed; 
+	width:100%; 
+	z-index:1999;
+	visibility:hidden;
+}
+
+.background_image{
+	background-image:url(../images/preloader_background.jpg); 
+	background-position:center center; 
+	background-size:cover; 
+}
+
+#white-screen{
+	background-color:#FFF; 
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0; 
+	z-index:1998;
+}
+
+/* #logo-loader is pace loader theme. /*
+/* It can be found in css/pace/pace-theme-center-circle.css */
